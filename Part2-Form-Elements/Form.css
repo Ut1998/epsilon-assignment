@@ -1,0 +1,53 @@
+.form-container {
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+input {
+  width: 350px;
+  padding: 1px 5px;
+  margin-top: 5px;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: block;
+  margin-bottom: 24px;
+  height: 36px;
+}
+
+label {
+  color: #1a1a1a;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+::placeholder {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #737373;
+}
+
+.button {
+  width: 350px;
+  padding: 1px 5px;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #0063e6;
+  color: #ffffff;
+  display: block;
+  margin-top: 32px;
+  height: 36px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.button:hover {
+  background-color: #f0f6ff;
+  color: black;
+  cursor: pointer;
+}
