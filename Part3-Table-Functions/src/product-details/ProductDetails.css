@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+}
+
+table {
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.19);
+}
+
+.table-container {
+  border-radius: 3px;
+  align-items: center;
+  border: 1px solid lightgray;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+table thead button {
+  margin-left: 5px;
+  margin-top: 10px;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.products-table {
+  border-spacing: unset;
+}
+
+.products-table td,
+.products-table th {
+  /* padding: 12px; */
+  padding-top: 14px;
+  padding-bottom: 13px;
+  padding-right: 24px;
+  padding-left: 24px;
+  text-align: left;
+}
+
+.products-table tr:hover {
+  background-color: #f0f6ff;
+}
+
+.products-table tr:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+.products-table th {
+  color: #666666;
+  background-color: #f7f7f7;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #0063e6;
+  display: flex;
+  margin-top: 2px;
+}
+
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #0063e6;
+  display: flex;
+}
+
+.arrow-down:hover {
+  border-top: 5px solid #f0f6ff;
+}
+
+.arrow-up:hover {
+  border-bottom: 5px solid #f0f6ff;
+}
