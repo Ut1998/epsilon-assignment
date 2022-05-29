@@ -1,9 +1,9 @@
 import React from "react";
 
-const Button = ({ sortOrder, sortData }) => {
+const Button = ({ sortOrder, sortData, column }) => {
   return (
     <span className="button-container">
-      <button onClick={() => sortData("name")}>
+      <button onClick={() => sortData(column)}>
         {sortOrder === "ASC" ? (
           <span className="arrow-down" />
         ) : sortOrder === "DSC" ? (

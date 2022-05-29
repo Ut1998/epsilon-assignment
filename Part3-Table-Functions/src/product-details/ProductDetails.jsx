@@ -36,13 +36,24 @@ const ProductDetails = () => {
         <thead>
           <tr>
             <th id="name">
-              Product Name <Button sortData={sortData} sortOrder={sortOrder} />
+              Product Name{" "}
+              <Button sortData={sortData} sortOrder={sortOrder} column="name" />
             </th>
-            <th onClick={() => sortData("price")} id="price">
-              Price <Button />
+            <th id="price">
+              Price{" "}
+              <Button
+                sortData={sortData}
+                sortOrder={sortOrder}
+                column="price"
+              />
             </th>
             <th className="category">
-              Category <Button />
+              Category{" "}
+              <Button
+                sortData={sortData}
+                sortOrder={sortOrder}
+                column="category"
+              />
             </th>
           </tr>
         </thead>
